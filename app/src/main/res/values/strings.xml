@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">paesi</string>
+    <string name="pais">Italia</string>
+    <string name="comida">pizza</string>
+    <string name="flag">Italia</string>
+    <string name="food">Pizza</string>
+</resources>

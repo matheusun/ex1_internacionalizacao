@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/pais"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/pais"
+        android:textSize="@dimen/text_size" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
+        android:contentDescription="@string/flag"
+        app:srcCompat="@drawable/bandeira" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
+        android:contentDescription="@string/food"
+        app:srcCompat="@drawable/comida" />
+
+    <TextView
+        android:id="@+id/comida"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/comida"
+        android:textSize="@dimen/text_size" />
+
+</LinearLayout>

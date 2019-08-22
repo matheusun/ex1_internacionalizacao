@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"الدول "</string>
+    <string name="pais">المملكة العربية السعودية</string>
+    <string name="comida">كافتا</string>
+    <string name="food">كافتا</string>
+    <string name="flag">المملكة العربية السعودية</string>
+
+</resources>
